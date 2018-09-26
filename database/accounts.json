@@ -1,0 +1,17 @@
+{
+    "info": {
+        "name": "Accounts",
+        "link": "https:\/\/rodrigo3d.herokuapp.com\/api\/db\/v1\/accounts\/"
+    },
+    "accounts": [
+        {
+            "link": "https:\/\/mockaroo.com\/",
+            "username": "rodrigo3d",
+            "email": "me@rodrigo3d.com",
+            "date": "2018-07-04 23:41:39",
+            "phone": "+55 41 995511894",
+            "address": "Curitiba, 3481 Melrose Place <br \/>Beverly Hills, CA 90210<br \/>",
+            "id": "1"
+        }
+    ]
+}

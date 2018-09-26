@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Slim 3</title>
+  <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css' />
+  <style>
+    body {
+    margin: 50px 0 0 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #aaa;
+    font-size: 18px;
+  }
+  h1 {
+    color: #719e40;
+    letter-spacing: -3px;
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  ul {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+  }
+  ul li {
+    padding-left: 0px;
+    display: inline;
+  }
+  ul li a:link {
+    color: #719e40;
+  }
+  ul li a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+</style>
+</head>
+
+<body>
+  <h1>Slim</h1>
+  <div>a microframework for PHP</div>
+  {% if name %}
+  <h2>Hello {{ name }}!</h2>
+  {% else %}
+  <p>Try <a id="clclc" href="http://www.slimframework.com">SlimFramework</a></p>
+  {% endif %}
+  <br />
+  <ul>
+    {% for i in options.links %}
+    <li>
+      <a href="{{ options.link }}{{ i[1] }}" title="{{ i[0]|e }}">{{ i[0]|e }}</a>
+      {% if loop.last == false %} — {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  <script type="text/javascript">
+    var container = document.querySelector('p a');
+    container.addEventListener('click', function (event) {
+      event.preventDefault();
+    })
+  </script>
+</body>
+
+</html>

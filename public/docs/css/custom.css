@@ -1,0 +1,112 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+ body {
+  padding-top: 54px;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+
+/* Start - Rodrigo Ribeiro */
+/*
+
+I will show you how to change a height of a standard Bootstrap navbar.
+
+*/
+
+.navbar {
+  min-height: 0px;
+  height: 40px;
+}
+
+.navbar .container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 0 20px 0 0;
+  /*
+  padding: 0 0px;
+  height: 40px;
+  line-height: 40px;
+  */
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  /*
+  margin-top: 23px;
+  padding: 9px 10px !important;
+  */
+}
+
+/*
+@media (min-width: 768px) {
+  .navbar-nav > li > a { */
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+/*    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+*/
+/* End - Rodrigo Ribeiro */
+
+
+
+.nav > li > a {
+  padding: 5px 15px;
+
+  color: #444;
+
+  border-radius: 5px;
+}
+
+.nav > li > a.active,
+.nav > li > a.active:hover {
+  color: #fff;
+  background-color: #444;
+}
+
+
+
+
+.nav > .nav-header {
+  display: block;
+  padding: 15px 15px 0px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+
+#content .content {
+  display: none;
+}
+
+#toTop {
+  width:100px;
+  border:1px solid #ccc;
+  background:#f7f7f7;
+  text-align:center;
+  padding:5px;
+  position:fixed; /* this is the magic */
+  bottom:10px; /* together with this to put the div at the bottom*/
+  right:10px;
+  cursor:pointer;
+  display:none;
+  color:#333;
+  font-family:verdana;
+  font-size:11px;
+}

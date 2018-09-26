@@ -1,0 +1,34 @@
+{
+  "name": "slim-microservices",
+  "title": "Rodrigo Ribeiro - Desenvolvedor Full Stack",
+  "version": "1.0.0",
+  "description": "<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/1QQGjzDQqsP1MDC8moUwzJjD/nandomoreirame/nandomoreira-jekyll-theme'>   <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/1QQGjzDQqsP1MDC8moUwzJjD/nandomoreirame/nandomoreira-jekyll-theme.svg' /> </a>",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp default",
+    "build": "gulp build",
+    "push": "git add . && git commit -m \"[Atualização Automática]\" && git push -u origin slim"
+  },
+  "keywords": [
+    "Jekyll"
+  ],
+  "homepage": "https://github.com/rodrigo3d/my-guide#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo3d/my-guide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigo3d/my-guide/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rodrigo Ribeiro",
+    "url": "http://rodrigo3d.com/about",
+    "email": "me@rodrigo3d.com"
+  },
+  "contributors": [
+    "Flavia Machado (flavia.machado@rodrigo3d.com)"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

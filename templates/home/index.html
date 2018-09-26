@@ -1,0 +1,83 @@
+{% extends "home/master.html" %}
+{% block body %}
+
+<div id="nav">
+
+
+  <ul class="nav flex-column">
+
+    <li class="nav-item misc">
+      <a class="nav-link active" href="#home"><i class="fa fa-home"></i> Home</a>
+    </li>
+    <li class="nav-item misc">
+      <a class="nav-link" href="http://rodrigo3d.com"><i class="fa fa-truck"></i> rodrigo3d.com &nbsp; <i class="fa fa-external-link"></i></a>
+    </li>
+
+    <li class="nav-item nav-header">
+      Databases
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#databases"><i class="fa fa-database"></i> Databases</a>
+    </li>
+
+    <li class="nav-item nav-header">
+      Styles
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#ui"><i class="fa fa-flask"></i> UI Elements</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#cirque"><i class="fa fa-money"></i> Cirque Stat</a>
+    </li>
+
+    <li class="nav-item nav-header">
+      Customize
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#skins"><i class="fa fa-adjust"></i> Skins</a>
+    </li>
+
+  </ul>
+
+</div>
+<!-- /nav -->
+
+<div id="content">
+
+  <div id="home-content" class="content">
+    <h1>PHP JSON Server - Documentação</h1>
+    <p>
+      PHP JSON Server é uma api simples e minimalista full featured admin template based on Twitter Bootstrap Framework. Dashboard comes packaged
+      with
+      many custom made widgets and plugins including pricing tables, faq plugin, growl messages, lightbox plugin,
+      validation, and login styles.
+    </p>
+    <p>
+      This documentation details components and widgets added by Jumpstart UI only. For information on how to use
+      Twitter
+      Bootstrap view their
+      <a href="http://getbootstrap.com" target="_blank">documenation here</a>.
+    </p>
+    <hr class="full" />
+    <br />
+    <div class="shortcuts">
+
+    </div>
+    <!-- /shortcuts -->
+  </div>
+
+  {% include 'home/content/databases.html' %}
+  {% include 'home/content/cirque.html' %}
+  {% include 'home/content/ui.html' %}
+
+  <div id="error-content" class="content">
+    <h1>Page Not Found</h1>
+  </div>
+
+</div>
+<!-- /content -->
+
+{% endblock %}

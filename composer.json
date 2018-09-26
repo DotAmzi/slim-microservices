@@ -1,0 +1,53 @@
+{
+  "name": "rodrigo3d/php-json-server",
+  "description": "API ",
+  "keywords": [
+    "Slim Framework",
+    "PHP",
+    "Json"
+  ],
+  "homepage": "http://rodrigo3d.com",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rodrigo Ribeiro",
+      "email": "me@rodrigo3d.com",
+      "homepage": "http://www.rodrigo3d.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "slim/slim": "^3.10",
+    "slim/csrf": "^0.8.2",
+    "slim/flash": "^0.4.0",
+    "slim/twig-view": "^2.4",
+    "monolog/monolog": "^1.23",
+    "oscarotero/psr7-middlewares": "^3.21",
+    "christianklisch/slim-minify": "^0.5.0",
+    "tuupola/slim-jwt-auth": "^2.4",
+    "tuupola/slim-basic-auth": "^2.3",
+    "firebase/php-jwt": "^5.0",
+    "aptoma/twig-markdown": "^3.0",
+    "akrabat/rka-scheme-and-host-detection-middleware": "^0.4.0",
+    "davidepastore/slim-markdown-view": "^0.1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "config": {
+    "process-timeout": 0,
+    "php": "5.6"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env'); \""
+    ],
+    "start": "php -S localhost:8081 -t public index.php",
+    "push": "git add . && git commit -m \"[Atualizacao Automatica]\" && git push -u origin master",
+    "test": "vendor/bin/phpunit",
+    "refresh-database": "php vendor/bin/phinx rollback -t0; php vendor/bin/phinx migrate; php vendor/bin/phinx seed:run"
+  }
+}

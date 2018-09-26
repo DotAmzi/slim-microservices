@@ -1,0 +1,73 @@
+{% extends "master.html" %}
+{% block body %}
+
+
+
+<div id="nav">
+
+
+  <ul class="nav flex-column">
+
+    <li class="nav-item misc">
+      <a class="nav-link active" href="#home"><i class="fa fa-home"></i> Home</a>
+    </li>
+    <li class="nav-item misc">
+      <a class="nav-link" href="http://rodrigo3d.com"><i class="fa fa-truck"></i> rodrigo3d.com &nbsp; <i class="fa fa-external-link"></i></a>
+    </li>
+
+    <li class="nav-item nav-header">
+      Databases
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#databases"><i class="fa fa-database"></i> Databases</a>
+    </li>
+
+    <li class="nav-item nav-header">
+      Styles
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#ui"><i class="fa fa-flask"></i> UI Elements</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#cirque"><i class="fa fa-money"></i> Cirque Stat</a>
+    </li>
+
+    <li class="nav-item nav-header">
+      Customize
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#skins"><i class="fa fa-adjust"></i> Skins</a>
+    </li>
+
+  </ul>
+
+</div> <!-- /nav -->
+
+
+
+
+
+<div id="content">
+
+  {% include 'home/content/home.html' %}
+
+
+  {% include 'home/content/databases.html' %}
+  {% include 'home/content/cirque.html' %}
+
+
+
+  {% include 'home/content/ui.html' %}
+
+
+  {% include 'home/content/error.html' %}
+
+</div> <!-- /content -->
+
+
+
+
+{% endblock %}

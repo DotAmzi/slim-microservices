@@ -1,0 +1,21 @@
+{% extends "layout/master.html" %}
+{% block body %}
+<div class="container">
+
+	{% if messages.success %}
+	<div class="alert alert-success alert-dismissable">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+	 	<strong>Success!</strong> {{ messages.success | first }}
+	</div>
+	{% endif %}
+	{% if messages.error %}
+
+	<div class="alert alert-danger alert-dismissable">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+	 	<strong>Danger!</strong> {{ messages.error | first }}
+	</div>
+	{% endif %}
+
+	Bem vindo {{user.email}}
+</div>
+{% endblock %}

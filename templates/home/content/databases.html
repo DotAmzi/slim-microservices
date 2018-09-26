@@ -1,0 +1,39 @@
+<div id="databases-content" class="content">
+
+  <h1><i class="fa fa-database"></i> Databases</h1>
+
+  <hr />
+
+  <h3>Diretório</h3>
+
+  <p>Add the class <code>.chart-holder</code> to your div that is going to contain the chart. This helper class give the chart container a default height which it needs to display properly.</p>
+
+  <pre>{{ dir }}</pre>
+
+  <hr />
+
+  <h3>Banco de Dados</h3>
+  <p>To enable a pre-made skin, simply switch out the application.css file located in <code>/css</code> directory with the color your would like to use.</p>
+
+  <h4>Banco de Dados</h4>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th width="20%">Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+     {% for i in items %}
+     <tr>
+      <td>{{ i }}</td>
+      <td><a href="{{base_url()}}/{{ i | replace({'.json': ''}) }}" target="_blank">Vizualizar</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+
+</div>

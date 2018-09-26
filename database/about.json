@@ -1,0 +1,238 @@
+{
+  "info": {
+    "name": "About",
+    "link": "https:\/\/rodrigo3d.herokuapp.com\/api\/db\/profile\/"
+  },
+  "about": [
+    {
+      "name": "Rodrigo Ribeiro",
+      "username": "rodrigo3d",
+      "github-avatar": "https:\/\/avatars.githubusercontent.com\/rodrigo3d",
+      "email": "me@rodrigo3d.com",
+      "phone": "+55 41 995511894",
+      "address": "Colombo - Paran\u00e1 - Brasil",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.",
+      "social": [
+        {
+          "name": "Github",
+          "icon": "fa-github",
+          "link": "https:\/\/github.com\/rodrigo3d"
+        },
+        {
+          "name": "Twitter",
+          "icon": "fa-twitter",
+          "link": "https:\/\/twitter.com\/rodrigo3dapp"
+        },
+        {
+          "name": "Instagram",
+          "icon": "fa-instagram",
+          "link": "https:\/\/www.instagram.com\/rodrigo3dapp"
+        },
+        {
+          "name": "WhatsApp",
+          "icon": "fa-whatsapp",
+          "link": "javascript:alert('Em desenvolvimento!');"
+        }
+      ],
+      "skills": [
+        {
+          "name": "HTML5",
+          "icon": "html5.svg",
+          "status": true
+        },
+        {
+          "name": "CSS3",
+          "icon": "css3.svg",
+          "status": true
+        },
+        {
+          "name": "JavaScript",
+          "icon": "javascript.svg",
+          "status": true
+        },
+        {
+          "name": "WordPress",
+          "icon": "wordpress.svg",
+          "status": true
+        },
+        {
+          "name": "PHP",
+          "icon": "php.svg",
+          "status": true
+        },
+        {
+          "name": "Apache",
+          "icon": "apache.svg",
+          "status": true
+        },
+        {
+          "name": "GulpJS",
+          "icon": "gulp.svg",
+          "status": true
+        },
+        {
+          "name": "Git",
+          "icon": "git.svg",
+          "status": true
+        },
+        {
+          "name": "GitHub",
+          "icon": "github.svg",
+          "status": true
+        },
+        {
+          "name": "Git",
+          "icon": "git.svg",
+          "status": true
+        },
+        {
+          "name": "Gitlab",
+          "icon": "gitlab.svg",
+          "status": true
+        },
+        {
+          "name": "jQuery",
+          "icon": "jquery.svg",
+          "status": true
+        },
+        {
+          "name": "VueJS",
+          "icon": "vuejs.svg",
+          "status": true
+        },
+        {
+          "name": "React",
+          "icon": "react.svg",
+          "status": true
+        },
+        {
+          "name": "AngularJS",
+          "icon": "angularjs.svg",
+          "status": true
+        },
+        {
+          "name": "NodeJS",
+          "icon": "nodejs.svg",
+          "status": true
+        },
+        {
+          "name": "Babel",
+          "icon": "babel.svg",
+          "status": true
+        },
+        {
+          "name": "Mocha",
+          "icon": "mocha.svg",
+          "status": true
+        },
+        {
+          "name": "Chai",
+          "icon": "chai.svg",
+          "status": true
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "bootstrap.svg",
+          "status": true
+        },
+        {
+          "name": "SASS",
+          "icon": "sass.svg",
+          "status": true
+        },
+        {
+          "name": "Bower",
+          "icon": "bower.svg",
+          "status": true
+        },
+        {
+          "name": "Jekyll",
+          "icon": "jekyll.svg",
+          "status": true
+        },
+        {
+          "name": "CodeIgniter",
+          "icon": "codeigniter.svg",
+          "status": true
+        },
+        {
+          "name": "Laravel",
+          "icon": "laravel.svg",
+          "status": true
+        },
+        {
+          "name": "SASS",
+          "icon": "sass.svg",
+          "status": true
+        },
+        {
+          "name": "Symfony",
+          "icon": "chai.svg",
+          "status": true
+        },
+        {
+          "name": "Docker",
+          "icon": "docker.svg",
+          "status": true
+        },
+        {
+          "name": "SASS",
+          "icon": "sass.svg",
+          "status": true
+        },
+        {
+          "name": "Heroku",
+          "icon": "heroku.svg",
+          "status": true
+        },
+        {
+          "name": "SketchApp",
+          "icon": "sketchapp.svg",
+          "status": true
+        },
+        {
+          "name": "Photoshop",
+          "icon": "photoshop.svg",
+          "status": true
+        },
+        {
+          "name": "Ruby",
+          "icon": "ruby.svg",
+          "status": true
+        },
+        {
+          "name": "Ruby on Rails",
+          "icon": "rails.svg",
+          "status": true
+        },
+        {
+          "name": "Amazon WebServices",
+          "icon": "amazonwebservices.svg",
+          "status": true
+        },
+        {
+          "name": "DigitalOcean",
+          "icon": "digitalocean.svg",
+          "status": true
+        },
+        {
+          "name": "Linux",
+          "icon": "linux.svg",
+          "status": true
+        },
+        {
+          "name": "TravisCI",
+          "icon": "travis.svg",
+          "status": true
+        },
+        {
+          "name": "Responsive Web design, PWA, Mobile First, Progressive Enhancement, e mais...",
+          "icon": "responsive.svg",
+          "status": true
+        }
+      ],
+"date": "2018-07-06 00:41:43",
+"id": "1"
+}
+]
+}
